@@ -14,7 +14,7 @@ screen_height = 2160 - 200 # Leave room for dock
 margin = 100
 
 try:
-	option = int(sys.argv[1])
+	option = int(sys.argv[1]) - 1
 	x_mod = option % 3
 	y_mod = option / 3
 
